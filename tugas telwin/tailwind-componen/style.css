@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Almendra+SC&family=Comfortaa:wght@700&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: none;
+    transition: .3s ease;
+    font-family: "Comic Neue", cursive;
+    font-optical-sizing: auto;
+}
+
+.lea {
+    font-weight: 400;
+    font-size: 30px;
+    box-shadow: 2px 3px 0px 2px;
+    font-family: "Agbalumo", system-ui;
+    font-style: italic;
+    border-radius: 15px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    padding: 10px;
+    text-decoration: none;
+    color: #674188;
+    font-style: none;
+    text-decoration: dashed;
+    background-color: #FFFBF5;
+}
+
+.woi .navbar-toggler {
+    border: solid 1px black;
+}
+
+.po:hover {
+    animation: contoh 1s ease infinite;
+    transition: .5s ease;
+}
+
+@keyframes contoh {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+.loww {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.front {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+}
+
+.ui {
+    font-size: 150px;
+}
+
+.grud {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    width: 100%;
+    height: 98%;
+}
+
+.one {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 1px rgba(255, 255, 255, 0.555);
+    color: #fff;
+}
+
+.one img {
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.oneP {
+    width: 50%;
+    height: 100%;
+}
+
+.twoP {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    background: #FFFBF5;
+
+}
+
+.two {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 1px rgba(255, 255, 255, 0.555);
+    color: #fff;
+}
+
+.three {
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    border: solid 1px rgba(255, 255, 255, 0.555);
+}
+
+.seratus {
+    width: 100%;
+    background-color: #F7EFE5;
+    padding: 20px;
+}
+
+.log img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.wlopp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.de {
+    margin-left: 50px;
+}
+
+.de h6 {
+    font-family: "Agbalumo", system-ui;
+    color: #674188;
+}
+
+.potoA img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.potoA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.potoA span {
+    font-size: 14px;
+    color: #674188;
+}
+
+.potoApps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin: 40px 0px;
+    color: #674188;
+}
+
+.email h3 {
+    font-size: 35px;
+    font-family: "Agbalumo", system-ui;
+}
+
+.two h3 {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.247);
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Agbalumo", system-ui;
+    color: #674188;
+}
+
+.ema {
+    color: #C3ACD0;
+}
+
+.info {
+    color: rgb(85, 185, 85);
+    font-family: "Agbalumo", system-ui;
+}
+
+
+.head {
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    color: #674188;
+    width: 50%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.247);
+}
+
+.aboutText {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #674188;
+}
+
+.buaton {
+    margin-top: 20px;
+    width: 40%;
+    height: 40px;
+    background-color: #674188;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    transition: .3s;
+    transform: scale(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.buaton:hover,
+.buttton:hover {
+    background-color: #FFFBF5;
+    color: #674188;
+    transform: scale(1.05);
+}
+
+.putih {
+    width: 100%;
+    height: 100%;
+    background-color: #C3ACD0;
+}
+
+.con {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.maps {
+    width: 49%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 80%;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px;
+}
+
+#contact h1 {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.575);
+    padding-bottom: 10px;
+    font-family: "Agbalumo", system-ui;
+}
+
+
+.form {
+    width: 49%;
+    height: 100%;
+}
+
+
+.nav-item a:hover {
+    color: #F7EFE5;
+    background-color: #6a00ff;
+}
+
+.nav-item a {
+    color: #674188;
+    padding: 10px;
+    transition: .3s ease;
+    border-radius: 20px;
+    width: 150px;
+    padding-inline-start: 5px;
+    background-color: #F7EFE5;
+    margin-bottom: 10px;
+}
+
+.urmulir {
+    display: flex;
+    flex-direction: column;
+}
+
+.urmulir input {
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    background-color: #F7EFE5;
+}
+
+/* Mempercantik input text */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    padding: 10px;
+    /* Atur padding */
+    border: 1px solid #ccc;
+    /* Atur border */
+    border-radius: 5px;
+    /* Atur border radius */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Atur efek bayangan */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    /* Efek transisi */
+}
+
+/* Efek hover */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="number"]:hover,
+textarea:hover,
+select:hover {
+    border-color: #FFFBF5;
+    /* Atur warna border saat hover */
+}
+
+/* Efek focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #FFFBF5;
+    /* Atur warna border saat focus */
+    outline: 0;
+    /* Hilangkan outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /* Atur efek bayangan saat focus */
+}
+
+.offcanvas {
+    background-color: #000000;
+}
+
+.buttton {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+    color: #674188;
+    background-color: #FFFBF5;
+}
+
+
+svg text {
+
+    font-family: "Agbalumo", system-ui;
+    letter-spacing: 1px;
+    stroke: #000000;
+    font-size: 180px;
+    font-weight: 700;
+    stroke-width: 1;
+    animation: textAnimate 4s infinite alternate;
+
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 10%;
+        stroke-dashoffset: 5%;
+        fill: #674188
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: #674188
+    }
+
+}
+
+.contact h1 {
+    color: #674188;
+}
+
+@media screen and (min-width:415px) and (max-width: 1000px) {
+    .ui {
+        font-size: 70px;
+    }
+
+    .grud {
+        flex-direction: column;
+    }
+
+    .oneP {
+        width: 100%;
+        height: 45%;
+    }
+
+    .twoP {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 49%;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .seratus {
+        height: 110vh;
+    }
+
+    .two {
+        height: 100%;
+        width: 49%;
+    }
+
+    .three {
+        display: none;
+    }
+
+    .one img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .email {
+        margin: 5px 0px;
+    }
+
+    svg text {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width :414px){
+    .ui {
+        font-size: 50px;
+    }
+
+    .grud {
+        flex-direction: column;
+    }
+
+    .oneP {
+        width: 100%;
+        height: 45%;
+    }
+
+    .twoP {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 49%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .seratus {
+        height: 100vh;
+    }
+
+    .two {
+        height: 100%;
+        width: 49%;
+    }
+
+    .three {
+        display: none;
+    }
+
+    .one img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .email {
+        margin: 5px 0px;
+    }
+
+    svg text {
+        font-size: 70px;
+        animation: textAnimate 2s infinite alternate;
+    }
+
+    .email h3{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .two p{
+        font-size: 12px;
+    }
+
+    .loww p{
+        margin: 0px 50px;
+    }
+
+    .buaton {
+        margin-top: 20px;
+        width: 80%;
+        height: 50px;
+    }
+}
